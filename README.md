@@ -8,8 +8,8 @@
 * 必须参数
 	* access_key
 	* secret_key
-	* scope 上传空间
-	* deadline token有效时间
+	* scope //上传空间
+	* deadline token //有效时间
 * 算法
 	* 将上传策略序列化成为json格式：json_text
 	* 对json序列化后的上传策略进行URL安全的Base64编码：urlsafe_base64_text
