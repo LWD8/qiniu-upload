@@ -1,7 +1,7 @@
-var access_key = '1'
-var secret_key = '2'
-var scope = '3'
-var deadline = '1448019221'
+var access_key = ''
+var secret_key = ''
+var scope = ''
+var deadline = ''
 
 
 /*
@@ -180,7 +180,6 @@ var genUpToken = function (accessKey, secretKey, put_policy) {
     var upload_token = accessKey + ":" + safe64(encoded_signed) + ":" + encoded;
     return upload_token;
 };
-
 
 
 var json_text = put_policy_encode();
