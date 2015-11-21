@@ -6,10 +6,10 @@ import hashlib
 import base64
 import time
 
-access_key = ''
-secret_key = ''
-scope = ''
-deadline = ''
+access_key = '-aVSsKYfAgHKPbWEEgWeCbgVV7gcTAOcGjxKBXlw'
+secret_key = 'T6b_Omsly45YoHnag7so-prfIsANPvs0g87bnzUG'
+scope = 'blog'
+deadline = '3344156400'
 
 def put_policy_encode():
     json_text = '{"scope":"%s","deadline":%s}' % (scope, deadline)
